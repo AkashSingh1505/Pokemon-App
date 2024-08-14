@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F9FA"
+    tools:context=".ui.PokemonDetailsFrag">
+
+        <!-- Pokémon Image -->
+        <ImageView
+            android:id="@+id/pokemon_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/image_drawable"
+            android:src="@drawable/img"
+            android:padding="8dp"/>
+
+        <!-- Pokémon Name -->
+        <TextView
+            android:id="@+id/pokemon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokemon_image"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#212529"
+            android:text="Unknown"
+            android:textAlignment="center"/>
+
+        <!-- Pokémon Height and Weight -->
+        <TextView
+            android:id="@+id/pokemon_height_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokemon_name"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:textColor="#495057"
+            android:text="2 Feet"
+            android:textAlignment="center"/>
+
+        <!-- Pokémon Abilities -->
+        <TextView
+            android:id="@+id/pokemon_abilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokemon_height_weight"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:text="Fly and Fire"
+            android:textColor="#495057"
+            android:textAlignment="center"/>
+
+        <!-- Pokémon Base Experience -->
+        <TextView
+            android:id="@+id/pokemon_base_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokemon_abilities"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:textColor="#495057"
+            android:textAlignment="center"/>
+
+        <!-- Pokémon Stats -->
+        <TextView
+            android:id="@+id/pokemon_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokemon_base_experience"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:textColor="#495057"
+            android:textAlignment="center"/>
+
+
+
+
+</RelativeLayout>

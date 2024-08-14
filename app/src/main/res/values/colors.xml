@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#121111</color>
+    <!-- Primary brand color. -->
+    <color name="colorPrimary">#002051</color>
+    <color name="colorPrimaryDark">#002051</color>
+    <color name="colorAccent">#0052CC</color>
+    <color name="lightPrimaryColor">#6F79AC</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="nonSelectedColor">#747475</color>
+    <color name="icon">#FFFFFF</color>
+    <color name="darkBlue">#24307E</color>
+
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">#3F51B5</color>       <!-- Updated secondary brand color -->
+    <color name="colorSecondaryDark">#303F9F</color>    <!-- Updated dark shade for secondary brand color -->
+    <color name="colorOnSecondary">#4CAF50</color>      <!-- Updated text color on secondary background -->
+    <color name="secondaryTextColor">#212121</color>     <!-- Updated secondary text color -->
+
+    <color name="appBgColor">#FAFAFF</color>
+    <color name="disableBGColor">#DBDDDD</color>
+    <color name="disableTextColor">#B3B5B5</color>
+    <color name="errorColor">#B00020</color>
+    <color name="cardViewBGColor">#F3F0F0</color>
+    <color name="cardSBGColor">#DCEBFC</color>
+    <color name="non_active_dot">#CCEBFF</color>
+    <color name="active_dot">#7AC1EB</color>
+</resources>

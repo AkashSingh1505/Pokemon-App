@@ -1,0 +1,22 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="nav_header_height">176dp</dimen>
+  <dimen name="nav_header_vertical_spacing">8dp</dimen>
+
+  <dimen name="item_offset">16dp</dimen>
+  <dimen name="dialog_toast_height">80dp</dimen>
+
+  <dimen name="standard_icon_size">24dp</dimen>
+  <dimen name="default_card_height">250dp</dimen>
+  <dimen name="health_card_height">300dp</dimen>
+  <dimen name="claim_card_height">230dp</dimen>
+
+  <dimen name="tab_height">100dp</dimen>
+  <dimen name="headingTextSize">16sp</dimen>
+
+  <dimen name="desiredIconSizePx" >100px</dimen>
+
+</resources>
